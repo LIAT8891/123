@@ -1,1 +1,135 @@
-# 123
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product {
+            width: calc(33.33% - 20px);
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .product-info {
+            padding: 20px;
+        }
+
+        .product-info h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .product-info p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .product-info button {
+            display: block;
+            margin: 10px auto 0;
+            padding: 10px 20px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product-info button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Cosmetics Store</h1>
+            <p>Welcome to our online cosmetics store</p>
+        </header>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/300" alt="Product 1">
+                <div class="product-info">
+                    <h2>Product 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300" alt="Product 2">
+                <div class="product-info">
+                    <h2>Product 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300" alt="Product 3">
+                <div class="product-info">
+                    <h2>Product 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2024 Cosmetics Store. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
